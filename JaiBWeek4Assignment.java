@@ -12,7 +12,7 @@ public class JaiBWeek4Assignment {
 		double W = 0;
 		double H = 0;
 		
-		System.out.println("Please Measure the Length, Width, and Height of your Box");
+		System.out.println("Please Measure the Length, Width, and Height of your Box \nso we can calculate the Surface Area and Volume of your box ");
 
 	Scanner input = new	Scanner(System.in);
 	System.out.printf("Please enter the Length: ", L);
