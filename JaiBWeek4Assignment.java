@@ -25,12 +25,15 @@ public class JaiBWeek4Assignment {
 	H = input.nextDouble();
 	double SA = (2*L*W+2*L*H+2*H*W);
 	
-	System.out.printf("Your Surface Area is : %,.2f%n",SA);
-	double VOL = (L*W*H);
-	System.out.printf("Your Volume is : %,.2f%n",VOL);
-	
-	//battabingbattaboombattadone!
-	
+	System.out.printf("Your Surface Area is : %,.2f%n",+ SurfaceArea(L, W, H));
+	System.out.printf("Your Volume is : %,.2f%n", +Volume(L,W,H));
 	}
-
-}
+	private static double SurfaceArea (double W, double L, double H) {
+		return (2*L*W+2*W*H+2*H*L);
+	}
+	private static double Volume (double W, double L, double H) {
+		return (L*W*H);
+	}
+	//battabingbattaboombattadone!
+	//Fixed it using methods vs single use computations
+	}
