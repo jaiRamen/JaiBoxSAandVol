@@ -1,3 +1,4 @@
+// Code reviewed by @professorgordon
 package jaiBWeek4Assign;
 import java.util.Scanner;
 
